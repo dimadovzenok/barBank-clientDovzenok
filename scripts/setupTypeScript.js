@@ -184,7 +184,7 @@ function updateWebpackConfig() {
 		// Edit entries
 		[
 			/entry: config\.client\.entry\(\)/,
-			`entry: { main: config.client.entry().main.replace(/\\.js$/, '.ts') }`
+			
 		],
 		[
 			/entry: config\.server\.entry\(\)/,
